@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "7e04cc34-46fc-48dd-ac44-5c23ecde61fa": {
+      "ProjectGuid": "7e04cc34-46fc-48dd-ac44-5c23ecde61fa",
+      "DisplayName": "ShareInertiaTensor",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
