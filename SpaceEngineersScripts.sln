@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DamageDetector", "DamageDetector\DamageDetector.csproj", "{2E413E6D-66C8-4E5D-BE9D-3A5B87EAAF84}"
 EndProject
@@ -16,6 +16,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{58C01533-9C15-4820-9AFE-F98DDE99F07C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrePatchYoinker", "OrePatchYoinker\OrePatchYoinker.csproj", "{0E8A5EDC-8745-4F2E-B2E7-2022A3F7A93A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asteroid Tagger", "Asteroid Tagger\Asteroid Tagger.csproj", "{3E13E98A-21F9-42FB-986C-28E4E3F413D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueStacker", "QueueStacker\QueueStacker.csproj", "{BE569B55-B8A9-4140-8B82-576069CDAD55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +40,10 @@ Global
 		{58C01533-9C15-4820-9AFE-F98DDE99F07C}.Debug|x64.Build.0 = Debug|x64
 		{0E8A5EDC-8745-4F2E-B2E7-2022A3F7A93A}.Debug|x64.ActiveCfg = Debug|x64
 		{0E8A5EDC-8745-4F2E-B2E7-2022A3F7A93A}.Debug|x64.Build.0 = Debug|x64
+		{3E13E98A-21F9-42FB-986C-28E4E3F413D0}.Debug|x64.ActiveCfg = Debug|x64
+		{3E13E98A-21F9-42FB-986C-28E4E3F413D0}.Debug|x64.Build.0 = Debug|x64
+		{BE569B55-B8A9-4140-8B82-576069CDAD55}.Debug|x64.ActiveCfg = Debug|x64
+		{BE569B55-B8A9-4140-8B82-576069CDAD55}.Debug|x64.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
