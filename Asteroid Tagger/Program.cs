@@ -20,18 +20,35 @@ using VRageMath;
 
 namespace IngameScript {
     partial class Program : MyGridProgram {
+        List<string> tags = new List<string>();
+        MyCommandLine cmd = new MyCommandLine();
 
-
-        public Program() {
-
-        }
+        public Program() {}
 
         public void Save() {
 
         }
 
         public void Main(string argument, UpdateType updateSource) {
-
+            if (cmd.TryParse(argument)) {
+                if (cmd.Switch("save")) {
+                    // Create gps point at raycast
+                    // Get current gps marker
+                    var pos = Me.GetPosition();
+                    string gps = $"GPS:{Me.CubeGrid.DisplayName}:{pos.X:n2}:{pos.Y:n2}:{pos.Z:n2}:";
+                }
+                if (cmd.Switch("addtag")) {
+                    // arg 0
+                    // Tag Name (Ag, Pl, Fe) etc
+                    string tag = cmd.Argument(0);
+                    if (tags.Contains(tag)) {
+                        tags.Remove(tag);
+                    } else {
+                        tags.Add(tag);
+                    }
+                    // Refresh tags list display lcd?
+                }
+            }
         }
     }
 }

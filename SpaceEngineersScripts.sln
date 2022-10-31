@@ -11,12 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RadioReceiver", "RadioRecei
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblerMonitor", "AssemblerMonitor\AssemblerMonitor.csproj", "{40A7042E-D602-4942-A596-C43A108DC2E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRetriever", "SignalRetriever\SignalRetriever.csproj", "{994245D4-EF50-44C8-AA40-BFBF0D7822E9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground", "Playground\Playground.csproj", "{58C01533-9C15-4820-9AFE-F98DDE99F07C}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrePatchYoinker", "OrePatchYoinker\OrePatchYoinker.csproj", "{0E8A5EDC-8745-4F2E-B2E7-2022A3F7A93A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asteroid Tagger", "Asteroid Tagger\Asteroid Tagger.csproj", "{3E13E98A-21F9-42FB-986C-28E4E3F413D0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueStacker", "QueueStacker\QueueStacker.csproj", "{BE569B55-B8A9-4140-8B82-576069CDAD55}"
@@ -34,12 +28,6 @@ Global
 		{38AFDAF4-8B89-41ED-A87A-21C5CC039994}.Debug|x64.Build.0 = Debug|x64
 		{40A7042E-D602-4942-A596-C43A108DC2E7}.Debug|x64.ActiveCfg = Debug|x64
 		{40A7042E-D602-4942-A596-C43A108DC2E7}.Debug|x64.Build.0 = Debug|x64
-		{994245D4-EF50-44C8-AA40-BFBF0D7822E9}.Debug|x64.ActiveCfg = Debug|x64
-		{994245D4-EF50-44C8-AA40-BFBF0D7822E9}.Debug|x64.Build.0 = Debug|x64
-		{58C01533-9C15-4820-9AFE-F98DDE99F07C}.Debug|x64.ActiveCfg = Debug|x64
-		{58C01533-9C15-4820-9AFE-F98DDE99F07C}.Debug|x64.Build.0 = Debug|x64
-		{0E8A5EDC-8745-4F2E-B2E7-2022A3F7A93A}.Debug|x64.ActiveCfg = Debug|x64
-		{0E8A5EDC-8745-4F2E-B2E7-2022A3F7A93A}.Debug|x64.Build.0 = Debug|x64
 		{3E13E98A-21F9-42FB-986C-28E4E3F413D0}.Debug|x64.ActiveCfg = Debug|x64
 		{3E13E98A-21F9-42FB-986C-28E4E3F413D0}.Debug|x64.Build.0 = Debug|x64
 		{BE569B55-B8A9-4140-8B82-576069CDAD55}.Debug|x64.ActiveCfg = Debug|x64
