@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asteroid Tagger", "Asteroid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueStacker", "QueueStacker\QueueStacker.csproj", "{BE569B55-B8A9-4140-8B82-576069CDAD55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemberBalancer", "AssemberBalancer\AssemberBalancer.csproj", "{9BE78ADA-BDC0-4C18-A478-48CA00A8E18A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -32,6 +34,8 @@ Global
 		{3E13E98A-21F9-42FB-986C-28E4E3F413D0}.Debug|x64.Build.0 = Debug|x64
 		{BE569B55-B8A9-4140-8B82-576069CDAD55}.Debug|x64.ActiveCfg = Debug|x64
 		{BE569B55-B8A9-4140-8B82-576069CDAD55}.Debug|x64.Build.0 = Debug|x64
+		{9BE78ADA-BDC0-4C18-A478-48CA00A8E18A}.Debug|x64.ActiveCfg = Debug|x64
+		{9BE78ADA-BDC0-4C18-A478-48CA00A8E18A}.Debug|x64.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

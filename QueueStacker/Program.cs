@@ -43,6 +43,7 @@ namespace IngameScript {
 
         public void Main(string argument, UpdateType updateSource) {
             ticker++;
+            
             if (ticker >= 10) {
                 ticker = 0;
                 Echo("Ran");

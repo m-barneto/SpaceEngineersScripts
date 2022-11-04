@@ -22,11 +22,16 @@ namespace IngameScript {
     partial class Program : MyGridProgram {
         List<string> tags = new List<string>();
         MyCommandLine cmd = new MyCommandLine();
+        IMyCameraBlock camera;
+        IMyTextSurface lcd;
 
-        public Program() {}
+        public Program() {
+            lcd = GridTerminalSystem.GetBlockWithName("LCD Tagger") as IMyTextSurface;
+            lcd.ContentType = ContentType.TEXT_AND_IMAGE;
+            lcd.WriteText("\n");
 
-        public void Save() {
-
+            camera = GridTerminalSystem.GetBlockWithName("Camera Tagger") as IMyCameraBlock;
+            camera.EnableRaycast = true;
         }
 
         public void Main(string argument, UpdateType updateSource) {
@@ -34,8 +39,14 @@ namespace IngameScript {
                 if (cmd.Switch("save")) {
                     // Create gps point at raycast
                     // Get current gps marker
-                    var pos = Me.GetPosition();
-                    string gps = $"GPS:{Me.CubeGrid.DisplayName}:{pos.X:n2}:{pos.Y:n2}:{pos.Z:n2}:";
+                    var info = camera.Raycast(40000.0);
+
+                    if (info.HitPosition.HasValue) {
+                        var pos = info.HitPosition.Value;
+                        string gps = $"GPS:{Me.CubeGrid.DisplayName}:{pos.X:n2}:{pos.Y:n2}:{pos.Z:n2}:";
+                        lcd.WriteText(gps);
+                        Echo(gps);
+                    }
                 }
                 if (cmd.Switch("addtag")) {
                     // arg 0
@@ -47,8 +58,18 @@ namespace IngameScript {
                         tags.Add(tag);
                     }
                     // Refresh tags list display lcd?
+                    PrintTags();
                 }
             }
+        }
+
+        void PrintTags() {
+            string strOut = "";
+            for (int i = 0; i < tags.Count; i++) {
+                strOut += tags[i];
+                if (i < tags.Count - 1) strOut += ", ";
+            }
+            lcd.WriteText(strOut);
         }
     }
 }
