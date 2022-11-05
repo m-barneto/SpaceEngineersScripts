@@ -39,7 +39,7 @@ namespace IngameScript {
             
             // Remove assemblers that are disassembling or in coop mode
             for (int i = assemblers.Count - 1; i >= 0; i--) {
-                if (assemblers[i].CooperativeMode || assemblers[i].Mode == MyAssemblerMode.Disassembly)
+                if (assemblers[i].CooperativeMode || assemblers[i].Mode == MyAssemblerMode.Disassembly || assemblers[i].Repeating)
                     assemblers.RemoveAt(i);
             }
 
