@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueStacker", "QueueStacke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemberBalancer", "AssemberBalancer\AssemberBalancer.csproj", "{9BE78ADA-BDC0-4C18-A478-48CA00A8E18A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrillCleaner", "DrillCleaner\DrillCleaner.csproj", "{90D02561-29F3-4A58-8A79-445D79CE5627}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -36,6 +38,8 @@ Global
 		{BE569B55-B8A9-4140-8B82-576069CDAD55}.Debug|x64.Build.0 = Debug|x64
 		{9BE78ADA-BDC0-4C18-A478-48CA00A8E18A}.Debug|x64.ActiveCfg = Debug|x64
 		{9BE78ADA-BDC0-4C18-A478-48CA00A8E18A}.Debug|x64.Build.0 = Debug|x64
+		{90D02561-29F3-4A58-8A79-445D79CE5627}.Debug|x64.ActiveCfg = Debug|x64
+		{90D02561-29F3-4A58-8A79-445D79CE5627}.Debug|x64.Build.0 = Debug|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
